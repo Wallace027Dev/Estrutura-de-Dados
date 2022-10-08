@@ -61,3 +61,7 @@ const gabriel = new Programador(
 console.table(wallace);
 console.table(vanessa);
 console.table(gabriel);
+
+for (const propriedade in vanessa) {
+  console.log(`${propriedade}:${vanessa[propriedade]}`);
+}
